@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+$body-bg: #f4efe3;
+$body-color: #1c2b30;
+$link-color: #1f7a72;
+$navbar-bg: #1c2b30;
+$navbar-fg: #f4efe3;
+$navbar-hl: #4fd1c0;
+$headings-color: #1c2b30;
+
+/*-- scss:rules --*/
+.iframe-frame {
+  border: 1px solid #d8cfb8;
+  border-radius: 6px;
+  width: 100%;
+  height: 900px;
+}
+.cruise-meta {
+  color: #52646a;
+  font-size: 0.95em;
+}

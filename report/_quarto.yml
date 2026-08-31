@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Florida Bay Forward Drift"
+  description: "Forward particle-drift modeling of Everglades freshwater outflow through Florida Bay and the Keys"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - text: Cruises
+        menu:
+          - cruises/WS0603.qmd
+          - cruises/WS1015.qmd
+          - cruises/WS16004.qmd
+          - cruises/WS16207.qmd
+          - cruises/WS17282.qmd
+          - cruises/WS20342.qmd
+          - cruises/WS22281.qmd
+          - cruises/WS23011.qmd
+  page-footer:
+    center: "Built with SLIM4 (UCL) &middot; FES2014 tides &middot; Copernicus Marine &middot; ERA5"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    page-layout: full
+    grid:
+      body-width: 1000px

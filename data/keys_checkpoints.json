@@ -1,0 +1,852 @@
+[
+  {
+    "cruise_id": "WS0603",
+    "model_window_start": "2006-01-11",
+    "model_window_end": "2006-01-25",
+    "n_stations": 30,
+    "stations": [
+      {
+        "station": "19",
+        "region": "Lower Keys",
+        "latitude": 24.6095,
+        "longitude": -81.4215
+      },
+      {
+        "station": "20",
+        "region": "Lower Keys",
+        "latitude": 24.57466667,
+        "longitude": -81.41833333
+      },
+      {
+        "station": "21.5",
+        "region": "Lower Keys",
+        "latitude": 24.48166667,
+        "longitude": -81.39183333
+      },
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.53816667,
+        "longitude": -81.41383333
+      },
+      {
+        "station": "22",
+        "region": "Lower Keys",
+        "latitude": 24.45533333,
+        "longitude": -81.82866667
+      },
+      {
+        "station": "22.5",
+        "region": "Lower Keys",
+        "latitude": 24.39666667,
+        "longitude": -81.82916667
+      },
+      {
+        "station": "23",
+        "region": "Lower Keys",
+        "latitude": 24.487,
+        "longitude": -81.82916667
+      },
+      {
+        "station": "24",
+        "region": "Lower Keys",
+        "latitude": 24.5365,
+        "longitude": -81.82883333
+      },
+      {
+        "station": "10",
+        "region": "Middle Keys",
+        "latitude": 24.78683333,
+        "longitude": -80.85966667
+      },
+      {
+        "station": "11",
+        "region": "Middle Keys",
+        "latitude": 24.75366667,
+        "longitude": -80.84633333
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.71383333,
+        "longitude": -80.83083333
+      },
+      {
+        "station": "13",
+        "region": "Middle Keys",
+        "latitude": 24.70083333,
+        "longitude": -81.02866667
+      },
+      {
+        "station": "14",
+        "region": "Middle Keys",
+        "latitude": 24.67466667,
+        "longitude": -81.02316667
+      },
+      {
+        "station": "15",
+        "region": "Middle Keys",
+        "latitude": 24.6415,
+        "longitude": -81.01683333
+      },
+      {
+        "station": "15.5",
+        "region": "Middle Keys",
+        "latitude": 24.5925,
+        "longitude": -80.99166667
+      },
+      {
+        "station": "16",
+        "region": "Middle Keys",
+        "latitude": 24.67466667,
+        "longitude": -81.20416667
+      },
+      {
+        "station": "17",
+        "region": "Middle Keys",
+        "latitude": 24.63633333,
+        "longitude": -81.19366667
+      },
+      {
+        "station": "18",
+        "region": "Middle Keys",
+        "latitude": 24.59916667,
+        "longitude": -81.18366667
+      },
+      {
+        "station": "7",
+        "region": "Middle Keys",
+        "latitude": 24.819,
+        "longitude": -80.75616667
+      },
+      {
+        "station": "8",
+        "region": "Middle Keys",
+        "latitude": 24.79166667,
+        "longitude": -80.74083333
+      },
+      {
+        "station": "9",
+        "region": "Middle Keys",
+        "latitude": 24.76316667,
+        "longitude": -80.72266667
+      },
+      {
+        "station": "9.5",
+        "region": "Middle Keys",
+        "latitude": 24.71633333,
+        "longitude": -80.68933333
+      },
+      {
+        "station": "1",
+        "region": "Upper Keys",
+        "latitude": 25.64416667,
+        "longitude": -80.12716667
+      },
+      {
+        "station": "2",
+        "region": "Upper Keys",
+        "latitude": 25.64166667,
+        "longitude": -80.10516667
+      },
+      {
+        "station": "3",
+        "region": "Upper Keys",
+        "latitude": 25.645,
+        "longitude": -80.084
+      },
+      {
+        "station": "4",
+        "region": "Upper Keys",
+        "latitude": 25.10833333,
+        "longitude": -80.38
+      },
+      {
+        "station": "5",
+        "region": "Upper Keys",
+        "latitude": 25.09316667,
+        "longitude": -80.35483333
+      },
+      {
+        "station": "5.5",
+        "region": "Upper Keys",
+        "latitude": 25.07733333,
+        "longitude": -80.33366667
+      },
+      {
+        "station": "6",
+        "region": "Upper Keys",
+        "latitude": 25.065,
+        "longitude": -80.31483333
+      },
+      {
+        "station": "6.5",
+        "region": "Upper Keys",
+        "latitude": 25.049,
+        "longitude": -80.28683333
+      }
+    ]
+  },
+  {
+    "cruise_id": "WS1015",
+    "model_window_start": "2010-08-09",
+    "model_window_end": "2010-08-20",
+    "n_stations": 12,
+    "stations": [
+      {
+        "station": "19",
+        "region": "Lower Keys",
+        "latitude": 24.60833333,
+        "longitude": -81.42116667
+      },
+      {
+        "station": "21.5",
+        "region": "Lower Keys",
+        "latitude": 24.486,
+        "longitude": -81.3875
+      },
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.53716667,
+        "longitude": -81.41333333
+      },
+      {
+        "station": "22",
+        "region": "Lower Keys",
+        "latitude": 24.4555,
+        "longitude": -81.82783333
+      },
+      {
+        "station": "24",
+        "region": "Lower Keys",
+        "latitude": 24.53766667,
+        "longitude": -81.82816667
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.71366667,
+        "longitude": -80.831
+      },
+      {
+        "station": "15",
+        "region": "Middle Keys",
+        "latitude": 24.64383333,
+        "longitude": -81.01583333
+      },
+      {
+        "station": "15.5",
+        "region": "Middle Keys",
+        "latitude": 24.59266667,
+        "longitude": -80.99133333
+      },
+      {
+        "station": "16",
+        "region": "Middle Keys",
+        "latitude": 24.67283333,
+        "longitude": -81.202
+      },
+      {
+        "station": "7",
+        "region": "Middle Keys",
+        "latitude": 24.82,
+        "longitude": -80.7475
+      },
+      {
+        "station": "1",
+        "region": "Upper Keys",
+        "latitude": 25.6455,
+        "longitude": -80.12583333
+      },
+      {
+        "station": "6.5",
+        "region": "Upper Keys",
+        "latitude": 25.0485,
+        "longitude": -80.28566667
+      }
+    ]
+  },
+  {
+    "cruise_id": "WS16004",
+    "model_window_start": "2015-12-28",
+    "model_window_end": "2016-01-07",
+    "n_stations": 11,
+    "stations": [
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.53583333,
+        "longitude": -81.413
+      },
+      {
+        "station": "WS",
+        "region": "Lower Keys",
+        "latitude": 24.47583333,
+        "longitude": -81.717
+      },
+      {
+        "station": "10",
+        "region": "Middle Keys",
+        "latitude": 24.786,
+        "longitude": -80.86016667
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.70983333,
+        "longitude": -80.833
+      },
+      {
+        "station": "16",
+        "region": "Middle Keys",
+        "latitude": 24.67466667,
+        "longitude": -81.20366667
+      },
+      {
+        "station": "18",
+        "region": "Middle Keys",
+        "latitude": 24.59616667,
+        "longitude": -81.18483333
+      },
+      {
+        "station": "7",
+        "region": "Middle Keys",
+        "latitude": 24.81916667,
+        "longitude": -80.75383333
+      },
+      {
+        "station": "9",
+        "region": "Middle Keys",
+        "latitude": 24.75933333,
+        "longitude": -80.72266667
+      },
+      {
+        "station": "9.5",
+        "region": "Middle Keys",
+        "latitude": 24.713,
+        "longitude": -80.69016667
+      },
+      {
+        "station": "2",
+        "region": "Upper Keys",
+        "latitude": 25.64166667,
+        "longitude": -80.1045
+      },
+      {
+        "station": "MR",
+        "region": "Upper Keys",
+        "latitude": 25.008,
+        "longitude": -80.38233333
+      }
+    ]
+  },
+  {
+    "cruise_id": "WS16207",
+    "model_window_start": "2016-07-18",
+    "model_window_end": "2016-07-29",
+    "n_stations": 10,
+    "stations": [
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.5375,
+        "longitude": -81.4155
+      },
+      {
+        "station": "WS",
+        "region": "Lower Keys",
+        "latitude": 24.475,
+        "longitude": -81.7185
+      },
+      {
+        "station": "10",
+        "region": "Middle Keys",
+        "latitude": 24.783,
+        "longitude": -80.86083333
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.71316667,
+        "longitude": -80.83266667
+      },
+      {
+        "station": "18",
+        "region": "Middle Keys",
+        "latitude": 24.59783333,
+        "longitude": -81.18333333
+      },
+      {
+        "station": "7",
+        "region": "Middle Keys",
+        "latitude": 24.8165,
+        "longitude": -80.75416667
+      },
+      {
+        "station": "9",
+        "region": "Middle Keys",
+        "latitude": 24.76233333,
+        "longitude": -80.7245
+      },
+      {
+        "station": "9.5",
+        "region": "Middle Keys",
+        "latitude": 24.71783333,
+        "longitude": -80.68883333
+      },
+      {
+        "station": "2",
+        "region": "Upper Keys",
+        "latitude": 25.64166667,
+        "longitude": -80.10516667
+      },
+      {
+        "station": "MR",
+        "region": "Upper Keys",
+        "latitude": 25.01016667,
+        "longitude": -80.38116667
+      }
+    ]
+  },
+  {
+    "cruise_id": "WS17282",
+    "model_window_start": "2017-10-02",
+    "model_window_end": "2017-10-12",
+    "n_stations": 32,
+    "stations": [
+      {
+        "station": "19",
+        "region": "Lower Keys",
+        "latitude": 24.60933333,
+        "longitude": -81.42133333
+      },
+      {
+        "station": "20",
+        "region": "Lower Keys",
+        "latitude": 24.57433333,
+        "longitude": -81.421
+      },
+      {
+        "station": "21.5",
+        "region": "Lower Keys",
+        "latitude": 24.48333333,
+        "longitude": -81.39166667
+      },
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.532,
+        "longitude": -81.417
+      },
+      {
+        "station": "22",
+        "region": "Lower Keys",
+        "latitude": 24.45366667,
+        "longitude": -81.832
+      },
+      {
+        "station": "22.5",
+        "region": "Lower Keys",
+        "latitude": 24.39533333,
+        "longitude": -81.832
+      },
+      {
+        "station": "23",
+        "region": "Lower Keys",
+        "latitude": 24.48616667,
+        "longitude": -81.82866667
+      },
+      {
+        "station": "24",
+        "region": "Lower Keys",
+        "latitude": 24.536,
+        "longitude": -81.83066667
+      },
+      {
+        "station": "WS",
+        "region": "Lower Keys",
+        "latitude": 24.47583333,
+        "longitude": -81.717
+      },
+      {
+        "station": "10",
+        "region": "Middle Keys",
+        "latitude": 24.78766667,
+        "longitude": -80.86016667
+      },
+      {
+        "station": "11",
+        "region": "Middle Keys",
+        "latitude": 24.7535,
+        "longitude": -80.84733333
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.7135,
+        "longitude": -80.831
+      },
+      {
+        "station": "14",
+        "region": "Middle Keys",
+        "latitude": 24.677,
+        "longitude": -81.02466667
+      },
+      {
+        "station": "15",
+        "region": "Middle Keys",
+        "latitude": 24.64566667,
+        "longitude": -81.01966667
+      },
+      {
+        "station": "15.5",
+        "region": "Middle Keys",
+        "latitude": 24.595,
+        "longitude": -80.99533333
+      },
+      {
+        "station": "16",
+        "region": "Middle Keys",
+        "latitude": 24.67616667,
+        "longitude": -81.20566667
+      },
+      {
+        "station": "17",
+        "region": "Middle Keys",
+        "latitude": 24.636,
+        "longitude": -81.19716667
+      },
+      {
+        "station": "18",
+        "region": "Middle Keys",
+        "latitude": 24.576,
+        "longitude": -81.18216667
+      },
+      {
+        "station": "8",
+        "region": "Middle Keys",
+        "latitude": 24.791,
+        "longitude": -80.74516667
+      },
+      {
+        "station": "9",
+        "region": "Middle Keys",
+        "latitude": 24.764,
+        "longitude": -80.72433333
+      },
+      {
+        "station": "9.5",
+        "region": "Middle Keys",
+        "latitude": 24.724,
+        "longitude": -80.68883333
+      },
+      {
+        "station": "1",
+        "region": "Upper Keys",
+        "latitude": 25.64383333,
+        "longitude": -80.12866667
+      },
+      {
+        "station": "2",
+        "region": "Upper Keys",
+        "latitude": 25.641,
+        "longitude": -80.107
+      },
+      {
+        "station": "3",
+        "region": "Upper Keys",
+        "latitude": 25.64683333,
+        "longitude": -80.08366667
+      },
+      {
+        "station": "5",
+        "region": "Upper Keys",
+        "latitude": 25.09116667,
+        "longitude": -80.3565
+      },
+      {
+        "station": "6",
+        "region": "Upper Keys",
+        "latitude": 25.06283333,
+        "longitude": -80.316
+      },
+      {
+        "station": "6.5",
+        "region": "Upper Keys",
+        "latitude": 25.0485,
+        "longitude": -80.28966667
+      },
+      {
+        "station": "EKIN",
+        "region": "Upper Keys",
+        "latitude": 25.33383333,
+        "longitude": -80.22583333
+      },
+      {
+        "station": "EKOFF",
+        "region": "Upper Keys",
+        "latitude": 25.29483333,
+        "longitude": -80.16233333
+      },
+      {
+        "station": "MR",
+        "region": "Upper Keys",
+        "latitude": 25.00533333,
+        "longitude": -80.37283333
+      },
+      {
+        "station": "UKIN",
+        "region": "Upper Keys",
+        "latitude": 24.93516667,
+        "longitude": -80.566
+      },
+      {
+        "station": "UKOFF",
+        "region": "Upper Keys",
+        "latitude": 24.89666667,
+        "longitude": -80.5295
+      }
+    ]
+  },
+  {
+    "cruise_id": "WS20342",
+    "model_window_start": "2020-11-30",
+    "model_window_end": "2020-12-13",
+    "n_stations": 13,
+    "stations": [
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.53633333,
+        "longitude": -81.41383333
+      },
+      {
+        "station": "KW1",
+        "region": "Lower Keys",
+        "latitude": 24.652,
+        "longitude": -81.904
+      },
+      {
+        "station": "KW2",
+        "region": "Lower Keys",
+        "latitude": 24.72533333,
+        "longitude": -81.915
+      },
+      {
+        "station": "WS",
+        "region": "Lower Keys",
+        "latitude": 24.47766667,
+        "longitude": -81.71783333
+      },
+      {
+        "station": "10",
+        "region": "Middle Keys",
+        "latitude": 24.78466667,
+        "longitude": -80.86366667
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.71533333,
+        "longitude": -80.82866667
+      },
+      {
+        "station": "15",
+        "region": "Middle Keys",
+        "latitude": 24.64233333,
+        "longitude": -81.01683333
+      },
+      {
+        "station": "15.5",
+        "region": "Middle Keys",
+        "latitude": 24.5925,
+        "longitude": -80.993
+      },
+      {
+        "station": "16",
+        "region": "Middle Keys",
+        "latitude": 24.67191667,
+        "longitude": -81.20375
+      },
+      {
+        "station": "18",
+        "region": "Middle Keys",
+        "latitude": 24.59966667,
+        "longitude": -81.18583333
+      },
+      {
+        "station": "7",
+        "region": "Middle Keys",
+        "latitude": 24.81683333,
+        "longitude": -80.75508333
+      },
+      {
+        "station": "2",
+        "region": "Upper Keys",
+        "latitude": 25.63966667,
+        "longitude": -80.1045
+      },
+      {
+        "station": "MR",
+        "region": "Upper Keys",
+        "latitude": 25.00516667,
+        "longitude": -80.3695
+      }
+    ]
+  },
+  {
+    "cruise_id": "WS22281",
+    "model_window_start": "2022-10-01",
+    "model_window_end": "2022-10-14",
+    "n_stations": 10,
+    "stations": [
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.53483333,
+        "longitude": -81.4175
+      },
+      {
+        "station": "KW1",
+        "region": "Lower Keys",
+        "latitude": 24.65366667,
+        "longitude": -81.90383333
+      },
+      {
+        "station": "KW2",
+        "region": "Lower Keys",
+        "latitude": 24.72933333,
+        "longitude": -81.911
+      },
+      {
+        "station": "WS",
+        "region": "Lower Keys",
+        "latitude": 24.47583333,
+        "longitude": -81.717
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.71316667,
+        "longitude": -80.83233333
+      },
+      {
+        "station": "16",
+        "region": "Middle Keys",
+        "latitude": 24.66966667,
+        "longitude": -81.20483333
+      },
+      {
+        "station": "18",
+        "region": "Middle Keys",
+        "latitude": 24.598,
+        "longitude": -81.184
+      },
+      {
+        "station": "9",
+        "region": "Middle Keys",
+        "latitude": 24.76183333,
+        "longitude": -80.7245
+      },
+      {
+        "station": "9.5",
+        "region": "Middle Keys",
+        "latitude": 24.71716667,
+        "longitude": -80.69266667
+      },
+      {
+        "station": "2",
+        "region": "Upper Keys",
+        "latitude": 25.63833333,
+        "longitude": -80.10766667
+      }
+    ]
+  },
+  {
+    "cruise_id": "WS23011",
+    "model_window_start": "2023-01-04",
+    "model_window_end": "2023-01-17",
+    "n_stations": 13,
+    "stations": [
+      {
+        "station": "21LK",
+        "region": "Lower Keys",
+        "latitude": 24.53533333,
+        "longitude": -81.4165
+      },
+      {
+        "station": "KW1",
+        "region": "Lower Keys",
+        "latitude": 24.654,
+        "longitude": -81.9045
+      },
+      {
+        "station": "KW2",
+        "region": "Lower Keys",
+        "latitude": 24.7275,
+        "longitude": -81.91716667
+      },
+      {
+        "station": "WS",
+        "region": "Lower Keys",
+        "latitude": 24.477,
+        "longitude": -81.72016667
+      },
+      {
+        "station": "10",
+        "region": "Middle Keys",
+        "latitude": 24.78716667,
+        "longitude": -80.86066667
+      },
+      {
+        "station": "12",
+        "region": "Middle Keys",
+        "latitude": 24.71383333,
+        "longitude": -80.83133333
+      },
+      {
+        "station": "16",
+        "region": "Middle Keys",
+        "latitude": 24.6705,
+        "longitude": -81.20283333
+      },
+      {
+        "station": "18",
+        "region": "Middle Keys",
+        "latitude": 24.59716667,
+        "longitude": -81.1835
+      },
+      {
+        "station": "7",
+        "region": "Middle Keys",
+        "latitude": 24.81483333,
+        "longitude": -80.75416667
+      },
+      {
+        "station": "9",
+        "region": "Middle Keys",
+        "latitude": 24.7655,
+        "longitude": -80.72366667
+      },
+      {
+        "station": "9.5",
+        "region": "Middle Keys",
+        "latitude": 24.718,
+        "longitude": -80.69233333
+      },
+      {
+        "station": "2",
+        "region": "Upper Keys",
+        "latitude": 25.64266667,
+        "longitude": -80.1055
+      },
+      {
+        "station": "MR",
+        "region": "Upper Keys",
+        "latitude": 25.007,
+        "longitude": -80.36983333
+      }
+    ]
+  }
+]

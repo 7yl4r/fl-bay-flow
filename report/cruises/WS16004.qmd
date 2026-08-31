@@ -1,0 +1,9 @@
+---
+title: "Cruise WS16004"
+---
+
+::: {.cruise-meta}
+Model window: **2015-12-28 &ndash; 2016-01-07** (10 days)
+:::
+
+<iframe class="iframe-frame" src="../viewers/viewer_WS16004.html"></iframe>

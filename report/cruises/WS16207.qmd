@@ -1,0 +1,9 @@
+---
+title: "Cruise WS16207"
+---
+
+::: {.cruise-meta}
+Model window: **2016-07-18 &ndash; 2016-07-29** (11 days)
+:::
+
+<iframe class="iframe-frame" src="../viewers/viewer_WS16207.html"></iframe>

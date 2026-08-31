@@ -1,0 +1,24 @@
+venv/
+build/
+slim4/
+
+# large raw/intermediate data, regenerable from scripts
+data/tides/raw/
+data/tides/extracted/
+data/wind/*.nc
+data/currents/*/*.nc
+run/output/*/hydro/
+run/output/*/mesh/
+particles/output/*/particles2d/
+viz/frames/
+
+*.log
+*.abin
+*.ajson
+__pycache__/
+*.pyc
+.~lock.*
+
+# quarto build output
+report/.quarto/
+report/_site/

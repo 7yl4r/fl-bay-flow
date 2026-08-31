@@ -1,0 +1,9 @@
+---
+title: "Cruise WS23011"
+---
+
+::: {.cruise-meta}
+Model window: **2023-01-04 &ndash; 2023-01-17** (13 days)
+:::
+
+<iframe class="iframe-frame" src="../viewers/viewer_WS23011.html"></iframe>

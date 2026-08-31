@@ -1,0 +1,9 @@
+---
+title: "Cruise WS20342"
+---
+
+::: {.cruise-meta}
+Model window: **2020-11-30 &ndash; 2020-12-13** (13 days)
+:::
+
+<iframe class="iframe-frame" src="../viewers/viewer_WS20342.html"></iframe>
