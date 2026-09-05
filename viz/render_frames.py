@@ -21,7 +21,7 @@ from read_particles_xdmf import read_particle_frames
 MESH_DIR = os.path.join(os.path.dirname(__file__), "..", "mesh")
 UTM17N_PROJ4 = "+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs"
 
-SOURCE_COLORS = ["#e63946", "#2a9d8f", "#457b9d", "#f4a261", "#8338ec"]
+SOURCE_COLORS = ["#e63946", "#2a9d8f", "#9d4edd", "#f4a261", "#8338ec"]
 
 SOURCES_LATLON = {
     "0": (25.356689515427423, -81.12549882635247),
@@ -69,7 +69,7 @@ def main():
         lonlat = utm_to_lonlat(frame["pos"])
         source_id = frame["source"]
 
-        fig, ax = plt.subplots(figsize=(10, 7))
+        fig, ax = plt.subplots(figsize=(8, 5.6))
         ax.plot(mainland[:, 0], mainland[:, 1], color="#555555", linewidth=0.8, zorder=1)
         for poly in islands:
             if len(poly) < 3:
@@ -95,7 +95,7 @@ def main():
         ax.set_xlabel("longitude"); ax.set_ylabel("latitude")
 
         fig.tight_layout()
-        fig.savefig(os.path.join(frames_dir, f"frame_{i:04d}.png"), dpi=110)
+        fig.savefig(os.path.join(frames_dir, f"frame_{i:04d}.png"), dpi=90)
         plt.close(fig)
 
     print(f"wrote {len(frames)} frames to {frames_dir}")

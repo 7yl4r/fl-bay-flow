@@ -24,16 +24,12 @@ SOURCES = {
 }
 N_PER_SOURCE = 200
 DT_MAX = 900.0  # integration substep target
-FINE_HOURS = 6.0      # dispersion is fastest right after release -- resolve it finely
-FINE_EXPORT_DT = 900.0
-COARSE_EXPORT_DT = 6 * 3600.0
+EXPORT_DT = 900.0  # uniform 15-min export cadence for the full run
 KH = 2.0  # background horizontal diffusivity (m^2/s)
 
 
 def build_export_times(t_release, t_end):
-    fine_end = min(t_release + FINE_HOURS * 3600.0, t_end)
-    times = list(np.arange(t_release, fine_end, FINE_EXPORT_DT))
-    times += list(np.arange(fine_end, t_end + 1.0, COARSE_EXPORT_DT))
+    times = list(np.arange(t_release, t_end + 1.0, EXPORT_DT))
     times = sorted(set(round(t, 3) for t in times))
     if times[-1] < t_end:
         times.append(t_end)
@@ -81,9 +77,7 @@ def main():
     sp2d.ParticleArrays2d.create_xdmf(export_name)
 
     export_times = build_export_times(t_release, t_end)
-    print(f"{len(export_times)} export checkpoints "
-          f"({FINE_EXPORT_DT/60:.0f}-min cadence for the first {FINE_HOURS:.0f}h, "
-          f"{COARSE_EXPORT_DT/3600:.0f}h cadence after)")
+    print(f"{len(export_times)} export checkpoints ({EXPORT_DT/60:.0f}-min cadence throughout)")
 
     t = t_release
     sp2d.ParticleArrays2d.append_to_xdmf(parray, export_name, t, fields=["source"])

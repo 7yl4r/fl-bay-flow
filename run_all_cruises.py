@@ -26,6 +26,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 VENV_PY = os.path.join(ROOT, "venv", "bin", "python3")
 BUILD_DIR = os.path.join(ROOT, "build")
 SPINUP_DAYS = 1
+MAX_WINDOW_DAYS = 7
 
 ENV = dict(os.environ)
 ENV["PYTHONPATH"] = BUILD_DIR
@@ -48,6 +49,10 @@ def run_step(name, cmd, log_path):
 
 
 def run_cruise(cruise_id, window_start, window_end):
+    capped_end = (datetime.date.fromisoformat(window_start) + datetime.timedelta(days=MAX_WINDOW_DAYS)).isoformat()
+    if capped_end < window_end:
+        window_end = capped_end
+
     forcing_dir = os.path.join(ROOT, "data", "forcing", cruise_id)
     currents_dir = os.path.join(ROOT, "data", "currents", cruise_id)
     hydro_dir = os.path.join(ROOT, "run", "output", cruise_id)

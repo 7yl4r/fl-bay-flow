@@ -258,7 +258,7 @@ HTML_TEMPLATE = """<title>Florida Bay Drift</title>
   <div class="legend">
     <span><i class="swatch" style="background:#e63946"></i>Shark River</span>
     <span><i class="swatch" style="background:#2a9d8f"></i>Mccormick Creek</span>
-    <span><i class="swatch" style="background:#457b9d"></i>Trout Creek</span>
+    <span><i class="swatch" style="background:#9d4edd"></i>Trout Creek</span>
   </div>
 </header>
 

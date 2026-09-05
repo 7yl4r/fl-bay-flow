@@ -22,3 +22,8 @@ __pycache__/
 # quarto build output
 report/.quarto/
 report/_site/
+
+# large regenerable viewer HTML (published to gh-pages via `quarto publish`, not tracked on main)
+viz/viewer_*.html
+report/viewers/*.html
+
