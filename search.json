@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Florida Bay Forward Drift",
+    "section": "",
+    "text": "This project tracks simulated freshwater released at three Everglades outflow points — Shark River, McCormick Creek, and Trout Creek — forward through Florida Bay and the Florida Keys, for the two weeks following each of 8 historical water-quality sampling cruises. The goal is to see, for the conditions actually present on each cruise date, which parts of the Bay and Keys a given outflow event is likely to reach and how quickly."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Florida Bay Forward Drift",
+    "section": "",
+    "text": "This project tracks simulated freshwater released at three Everglades outflow points — Shark River, McCormick Creek, and Trout Creek — forward through Florida Bay and the Florida Keys, for the two weeks following each of 8 historical water-quality sampling cruises. The goal is to see, for the conditions actually present on each cruise date, which parts of the Bay and Keys a given outflow event is likely to reach and how quickly."
+  },
+  {
+    "objectID": "index.html#model",
+    "href": "index.html#model",
+    "title": "Florida Bay Forward Drift",
+    "section": "Model",
+    "text": "Model\n\nCirculation model: SLIM4 (UCL), 2D depth-averaged shallow-water equations, unstructured triangular mesh (~32,000 elements, 400 m near the coast grading to 6,000 m offshore), explicit Runge-Kutta time integration with wetting-and-drying enabled for Florida Bay’s shallow flats.\nBathymetry: NOAA BlueTopo survey data.\nTides: FES2014 (8 major constituents: M2, S2, N2, K2, K1, O1, P1, Q1).\nOpen-boundary currents & sea surface height: Copernicus Marine Service GLORYS12 reanalysis.\nWind: ERA5 reanalysis, 10 m wind converted to surface stress via the Smith-Banke formula.\nParticle tracking: 200 particles per source (600 total), released at the start of each cruise’s model window and tracked forward for its duration with a random-walk horizontal diffusivity (“Okubo” formula) layered on top of the resolved currents."
+  },
+  {
+    "objectID": "index.html#reading-the-animations",
+    "href": "index.html#reading-the-animations",
+    "title": "Florida Bay Forward Drift",
+    "section": "Reading the animations",
+    "text": "Reading the animations\nEach cruise page below shows the drift animation for that cruise’s model window. Positions are exported every 15 minutes for the first 6 hours after release (when dispersion is fastest) and every 6 hours thereafter. Use the play/pause button, the scrubber, or the left/right arrow keys to step through."
+  },
+  {
+    "objectID": "index.html#cruises",
+    "href": "index.html#cruises",
+    "title": "Florida Bay Forward Drift",
+    "section": "Cruises",
+    "text": "Cruises\n\n\n\nCruise\nModel window\nDuration\n\n\n\n\nWS0603\n2006-01-11 – 2006-01-25\n14 days\n\n\nWS1015\n2010-08-09 – 2010-08-20\n11 days\n\n\nWS16004\n2015-12-28 – 2016-01-07\n10 days\n\n\nWS16207\n2016-07-18 – 2016-07-29\n11 days\n\n\nWS17282\n2017-10-02 – 2017-10-12\n10 days\n\n\nWS20342\n2020-11-30 – 2020-12-13\n13 days\n\n\nWS22281\n2022-10-01 – 2022-10-14\n13 days\n\n\nWS23011\n2023-01-04 – 2023-01-17\n13 days"
+  },
+  {
+    "objectID": "cruises/WS16207.html",
+    "href": "cruises/WS16207.html",
+    "title": "Cruise WS16207",
+    "section": "",
+    "text": "Model window: 2016-07-18 – 2016-07-29 (11 days)"
+  },
+  {
+    "objectID": "cruises/WS0603.html",
+    "href": "cruises/WS0603.html",
+    "title": "Cruise WS0603",
+    "section": "",
+    "text": "Model window: 2006-01-11 – 2006-01-25 (14 days)"
+  },
+  {
+    "objectID": "cruises/WS1015.html",
+    "href": "cruises/WS1015.html",
+    "title": "Cruise WS1015",
+    "section": "",
+    "text": "Model window: 2010-08-09 – 2010-08-20 (11 days)"
+  },
+  {
+    "objectID": "cruises/WS17282.html",
+    "href": "cruises/WS17282.html",
+    "title": "Cruise WS17282",
+    "section": "",
+    "text": "Model window: 2017-10-02 – 2017-10-12 (10 days)"
+  },
+  {
+    "objectID": "cruises/WS22281.html",
+    "href": "cruises/WS22281.html",
+    "title": "Cruise WS22281",
+    "section": "",
+    "text": "Model window: 2022-10-01 – 2022-10-14 (13 days)"
+  },
+  {
+    "objectID": "cruises/WS16004.html",
+    "href": "cruises/WS16004.html",
+    "title": "Cruise WS16004",
+    "section": "",
+    "text": "Model window: 2015-12-28 – 2016-01-07 (10 days)"
+  },
+  {
+    "objectID": "cruises/WS20342.html",
+    "href": "cruises/WS20342.html",
+    "title": "Cruise WS20342",
+    "section": "",
+    "text": "Model window: 2020-11-30 – 2020-12-13 (13 days)"
+  },
+  {
+    "objectID": "cruises/WS23011.html",
+    "href": "cruises/WS23011.html",
+    "title": "Cruise WS23011",
+    "section": "",
+    "text": "Model window: 2023-01-04 – 2023-01-17 (13 days)"
+  }
+]
