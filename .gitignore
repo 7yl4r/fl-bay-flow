@@ -7,10 +7,17 @@ data/tides/raw/
 data/tides/extracted/
 data/wind/*.nc
 data/currents/*/*.nc
-run/output/*/hydro/
-run/output/*/mesh/
-particles/output/*/particles2d/
+data/forcing/
+run/output/
+particles/output/
 viz/frames/
+
+# mesh-building scratch: GSHHG source archive, intermediate shapefile export,
+# and one-off verification plots (superseded by the tracked .npy coastline arrays)
+mesh/gshhg-shp-2.3.7.zip
+mesh/gshhg/
+mesh/fl_keys_coast.*
+mesh/*_check.png
 
 *.log
 *.abin
