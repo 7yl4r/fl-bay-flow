@@ -25,7 +25,13 @@ SOURCES = {
 N_PER_SOURCE = 200
 DT_MAX = 900.0  # integration substep target
 EXPORT_DT = 900.0  # uniform 15-min export cadence for the full run
-KH = 2.0  # background horizontal diffusivity (m^2/s)
+KH = float(os.environ.get("FORWARD_TRACK_KH", 2.0))  # background horizontal diffusivity (m^2/s)
+# "direct" (KH used as a fixed constant) rather than "okubo" (KH scaled by local
+# velocity shear): the shear-scaled formula amplifies any velocity-gradient
+# artifact in the hydro field into an outsized random-walk kick -- see
+# README.md ("Known artifact: localized spurious velocity spikes"). "direct"
+# gives the same nominal background dispersion without that vulnerability.
+KH_FORMULA = os.environ.get("FORWARD_TRACK_KH_FORMULA", "direct")
 
 
 def build_export_times(t_release, t_end):
@@ -52,7 +58,8 @@ def main():
     eta = slim.DataOutput(os.path.join(hydro_dir, "hydro"), "eta", mesh)
     uv = slim.DataOutput(os.path.join(hydro_dir, "hydro"), "uv", mesh)
 
-    tracker = sp2d.Tracker2d(mesh, eta, uv, bath, kh, "okubo")
+    tracker = sp2d.Tracker2d(mesh, eta, uv, bath, kh, KH_FORMULA)
+    print(f"diffusivity: formula={KH_FORMULA} kh={KH}")
     parray = sp2d.ParticleArrays2d(mesh, ["source"])
 
     WGS84 = osr.SpatialReference(); WGS84.ImportFromEPSG(4326); WGS84.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER)

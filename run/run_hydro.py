@@ -11,6 +11,9 @@ import time
 import numpy as np
 from slim4 import slim, slim2d, mpi
 
+sys.path.insert(0, os.path.dirname(__file__))
+from velocity_cap import cap_speed
+
 MESH_FILE = os.path.join(os.path.dirname(__file__), "..", "mesh", "fl_keys_coarse.msh")
 BATH_NPY = os.path.join(os.path.dirname(__file__), "..", "data", "bathy", "bath_fl_keys_coarse.npy")
 
@@ -95,7 +98,7 @@ def main():
     for iexport in range(n_export + 1):
         sol = solution.get()
         eta_out = sol[0]
-        uv_out = sol[1:] / (sol[[0]] + h_dg)
+        uv_out = cap_speed(sol[1:] / (sol[[0]] + h_dg))
         mesh.append_to_xdmf(os.path.join(output_dir, "hydro"), iexport, t, [("eta", eta_out), ("uv", uv_out)])
         if iexport % 24 == 0:
             if iexport > 0:
