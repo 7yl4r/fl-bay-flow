@@ -33,9 +33,8 @@ Keys a given outflow event is likely to reach and how quickly.
 ## Reading the animations
 
 Each cruise page below shows the drift animation for that cruise's model
-window. Positions are exported every 15 minutes for the first 6 hours after
-release (when dispersion is fastest) and every 6 hours thereafter. Use the
-play/pause button, the scrubber, or the left/right arrow keys to step through.
+window. Positions are exported hourly. Use the play/pause button, the
+scrubber, or the left/right arrow keys to step through.
 
 ## Cruises
 

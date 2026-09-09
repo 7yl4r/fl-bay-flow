@@ -124,11 +124,13 @@ slower than in isolation) until concurrency was dropped to 4.
 | Wind | ERA5 reanalysis | Hourly 10m u/v, `data/wind/download_era5.py`, converted to surface stress via Smith-Banke (`atm_density=1.25`, `f0=0, f1=6.3e-4, f2=6.6e-5`) |
 | Bathymetry | NOAA BlueTopo (COG GeoTIFF, `~/Documents/bluetopo/`) | Interpolated onto mesh nodes, clipped to 1.5 m minimum depth; the ~15% of nodes outside BlueTopo's survey extent are filled by nearest-neighbor from the nearest valid node (`data/bathy/interp_bathy.py`) — this nearest-neighbor fill is what produces the sharp depth discontinuities behind the velocity-spike artifact below. |
 
-Simulated window = cruise's model window, **capped to 7 days**, plus a
-1-day spinup/ramp before it (so 8 days of hydro per cruise). The original
-cruise windows (from the request spreadsheet) run 10-16 days; capping to a
-week was a deliberate cost/detail tradeoff after the first full-length runs
-showed each cruise taking many hours even running 4-way concurrent.
+Simulated window = cruise's model window, **capped to 14 days**, plus a
+1-day spinup/ramp before it. The cruise windows (from the request
+spreadsheet) run 10-14 days, so in practice this cap is a no-op — every
+cruise runs its full original window. An earlier version of this pipeline
+capped to 7 days as a cost/detail tradeoff (each cruise takes many hours
+even running 4-way concurrent); reverted once that tradeoff wasn't worth
+losing half of each cruise's real window.
 
 ## Particle tracking
 
@@ -143,10 +145,11 @@ window:
 | Trout Creek | 25.213100, -80.520919 |
 
 Integration: `Tracker2d`, RK4, substeps capped at 900s (15 min).
-Positions exported every **15 minutes for the full window** (not just an
-initial fine period — dispersion in the first few hours is fast enough
-that a coarser early cadence visibly missed it in an earlier version of
-this pipeline). A 1-week run produces 673 export checkpoints.
+Positions exported **hourly for the full window** — a 14-day run produces
+337 export checkpoints. (An earlier version of this pipeline used a
+15-min/6-hour fine/coarse split, then a uniform 15-min cadence throughout;
+both were tried while the window was capped to 7 days. Hourly is the
+current setting.)
 
 Diffusivity ("minor random perturbation" on top of the resolved currents):
 fixed at `kh=2.0 m²/s` using SLIM4's `"direct"` formula (kh applied as a
@@ -238,10 +241,11 @@ Trout Creek `#9d4edd` (purple) — Trout Creek was originally a blue
 (`#457b9d`) too close to the water fill and to McCormick Creek's teal to
 tell apart at a glance.
 
-Frames are rendered at 8x5.6in / 90dpi rather than a larger/sharper size:
-at 15-min cadence over a full week (673 frames/cruise), the resulting
-viewer HTML needs to stay under GitHub's 100MB per-file push limit. At
-this size each viewer is ~62-66MB.
+Frames are rendered at 8x5.6in / 90dpi rather than a larger/sharper size,
+chosen to keep the viewer HTML under GitHub's 100MB per-file push limit
+even at the densest cadence tried during development (15-min, 673
+frames/cruise, ~62-66MB each). At the current hourly cadence over a 14-day
+window (337 frames/cruise) each viewer is well under half that.
 
 ## Report
 

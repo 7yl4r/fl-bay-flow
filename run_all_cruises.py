@@ -26,7 +26,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 VENV_PY = os.path.join(ROOT, "venv", "bin", "python3")
 BUILD_DIR = os.path.join(ROOT, "build")
 SPINUP_DAYS = 1
-MAX_WINDOW_DAYS = 7
+MAX_WINDOW_DAYS = 14
 
 ENV = dict(os.environ)
 ENV["PYTHONPATH"] = BUILD_DIR

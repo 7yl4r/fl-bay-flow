@@ -24,7 +24,7 @@ SOURCES = {
 }
 N_PER_SOURCE = 200
 DT_MAX = 900.0  # integration substep target
-EXPORT_DT = 900.0  # uniform 15-min export cadence for the full run
+EXPORT_DT = 3600.0  # uniform hourly export cadence for the full run
 KH = float(os.environ.get("FORWARD_TRACK_KH", 2.0))  # background horizontal diffusivity (m^2/s)
 # "direct" (KH used as a fixed constant) rather than "okubo" (KH scaled by local
 # velocity shear): the shear-scaled formula amplifies any velocity-gradient
@@ -84,7 +84,7 @@ def main():
     sp2d.ParticleArrays2d.create_xdmf(export_name)
 
     export_times = build_export_times(t_release, t_end)
-    print(f"{len(export_times)} export checkpoints ({EXPORT_DT/60:.0f}-min cadence throughout)")
+    print(f"{len(export_times)} export checkpoints ({EXPORT_DT/3600:.0f}-hour cadence throughout)")
 
     t = t_release
     sp2d.ParticleArrays2d.append_to_xdmf(parray, export_name, t, fields=["source"])

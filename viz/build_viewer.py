@@ -285,7 +285,7 @@ HTML_TEMPLATE = """<title>Florida Bay Drift</title>
     <div class="elapsed" id="elapsed-readout">&mdash;</div>
   </div>
 </div>
-<p class="hint">Space to play/pause &middot; arrow keys to step &middot; {n_frames} frames (15-min cadence for the first 6h, 6-hourly after)</p>
+<p class="hint">Space to play/pause &middot; arrow keys to step &middot; {n_frames} frames, hourly cadence</p>
 
 <script>
   const frames = [{frames_js}];
